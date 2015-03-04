@@ -1,0 +1,29 @@
+TaskModel myTaskModelThatAreVerySimple {
+	tasks {
+		
+		Task doSomething {
+			activities {
+				mandatory Activity fillInData,
+				repeatable Activity validate,
+				mandatory repeatable Activity validateAgain,
+				Activity sendIn
+			}
+		},
+		
+		Task doSomeMoreThings {
+			activities {
+				Activity applyJobb,
+				repeatable Activity checkText,
+				mandatory Activity sendInn
+			}
+		},
+		
+		Task doEvenMore {
+			activities {
+				Activity applyJobb,
+				repeatable Activity checkText,
+				mandatory Activity sendInn
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+TaskModel myTaskModel{
+	tasks{
+		Task doSomething{
+			activities{
+				mandatory Activity fillInDataHello,
+				repeatable Activity validate,
+				mandatory repeatable Activity validateAgain,
+				Activity sendIn
+			}
+		},
+		Task doSomeMoreThings{
+			activities{
+				Activity applyJobb,
+				repeatable Activity checkText,
+				mandatory Activity sendInn
+			}
+		}
+	}
+}

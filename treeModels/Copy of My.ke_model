@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kE_Model:TaskModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:kE_Model="http://www.example.org/kE_Model" name="Ultimate task library">
+  <tasks name="Do something">
+    <activities name="DoSomething"/>
+    <activities name="MoreThingsTodo"/>
+  </tasks>
+  <tasks name="Do Something more">
+    <activities name="1"/>
+    <activities name="2"/>
+  </tasks>
+</kE_Model:TaskModel>
