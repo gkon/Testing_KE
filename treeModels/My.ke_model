@@ -2,4 +2,11 @@
 <kE_Model:TaskModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:kE_Model="http://www.example.org/kE_Model" name="Ultimate task library">
   <tasks name="Do something"/>
   <tasks name="Do Something more"/>
+  <tasks name="Another Task">
+    <activities name="Hello"/>
+    <activities name="Joho"/>
+  </tasks>
+  <tasks name="AndOneMore">
+    <activities name="LALALA"/>
+  </tasks>
 </kE_Model:TaskModel>
